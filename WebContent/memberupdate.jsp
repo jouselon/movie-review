@@ -19,7 +19,7 @@
         stmt = conn.createStatement();
         stmt.executeUpdate(sql);
 
-        response.sendRedirect("members.jsp");
+        response.sendRedirect("members.html");
     } catch (Exception e) {
         e.printStackTrace();
     } finally {

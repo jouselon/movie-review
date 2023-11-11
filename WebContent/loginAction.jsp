@@ -22,7 +22,7 @@
             PrintWriter script = response.getWriter();
             script.println("<script>");
             script.println("alert('이미 로그인되었습니다.')");
-            script.println("location.href = 'index.jsp'");    // 메인 페이지로 이동
+            script.println("location.href = 'index.html'");    // 메인 페이지로 이동
             script.println("</script>");
         }
         UserDAO userDAO = new UserDAO();
@@ -31,7 +31,7 @@
         	session.setAttribute("userID", user.getUserID());
             PrintWriter script = response.getWriter();
             script.println("<script>");
-            script.println("location.href = 'index.jsp'");
+            script.println("location.href = 'index.html'");
             script.println("</script>");
         }
         else if (result == 0){

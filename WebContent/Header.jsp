@@ -46,7 +46,7 @@
 
 <body style="width:100%;">
 <nav style="width:1725px;" class="navbar">
-    <img src="images/logo.png" class="brand-logo" alt="" onclick="location.href='index.jsp'">
+    <img src="images/logo.png" class="brand-logo" alt="" onclick="location.href='index.html'">
 
     <ul class="nav-links">
         <li class="nav-items"><a href="#">시리즈</a></li>
@@ -61,15 +61,15 @@
 
     <c:choose>
         <c:when test="${empty sessionScope.userID}">
-            <a href="login.jsp" class="profile-icon"></a>
+            <a href="login.html" class="profile-icon"></a>
         </c:when>
         <c:otherwise>
             <div class="profile-dropdown">
                 <button class="profile-icon"></button>
                 <div class="dropdown-content">
                     <a href="logoutAction.jsp">로그아웃</a>
-                    <a href="update.jsp">내 정보</a>
-                    <a href="members.jsp">회원 관리</a>
+                    <a href="update.html">내 정보</a>
+                    <a href="members.html">회원 관리</a>
                 </div>
             </div>
         </c:otherwise>

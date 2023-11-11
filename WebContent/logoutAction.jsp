@@ -11,7 +11,7 @@
             session.invalidate(); // 세션값 제거
 	%>
 	<script>
-            location.href = 'index.jsp'; <!-- 메인 페이지로 이동 -->
+            location.href = 'index.html'; <!-- 메인 페이지로 이동 -->
 	</script>
 </body>
 </html>

@@ -47,7 +47,7 @@
             	session.setAttribute("userID", user.getUserID()); // 추가
                 PrintWriter script = response.getWriter();
                 script.println("<script>");
-                script.println("location.href = 'index.jsp'");    // 메인 페이지로 이동
+                script.println("location.href = 'index.html'");    // 메인 페이지로 이동
                 script.println("</script>");
             }
     	}
