@@ -40,6 +40,8 @@
   <description>JDBC Type 4 driver for MySQL.</description>
   <url>http://dev.mysql.com/doc/connector-j/en/</url>
 
+
+
   <licenses>
     <license>
       <name>@MYSQL_CJ_LICENSE_NAME@</name>
@@ -80,5 +82,12 @@
       <version>2.47.0</version>
       <optional>true</optional>
     </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
   </dependencies>
 </project>

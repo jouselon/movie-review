@@ -4,28 +4,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/bootstrap.css">
 <title>JSP 게시판 웹 사이트</title>
 <style>
     body {
         padding-top: 20px;
     }
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    
-    
-    .login-form {
-        background-color: #f7f7f7;
-        border-radius: 5px;
-        padding: 20px;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-        max-width: 400px;
-        width: 100%;
-    }
+
     .login-form h3 {
         text-align: center;
         font-size: 24px;
@@ -63,9 +47,10 @@
     .login-form .btn:hover {
         background-color: #0056b3;
     }
-   
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
     body, html {
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
         height: 100%;
         font-family: 'Poppins', sans-serif;
     }
@@ -89,13 +74,7 @@
         box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
         
     }
-    .login100-form-title {
-        font-family: 'Poppins-Bold';
-        font-size: 30px;
-        color: #333333;
-        line-height: 1.2;
-        text-align: center;
-    }
+
             .wrap-input100 {
             width: 100%;
             position: relative;
